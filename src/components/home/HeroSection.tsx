@@ -114,10 +114,12 @@ export function HeroSection() {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-                className="absolute -bottom-6 -left-6 glass rounded-2xl p-4 shadow-card border border-white/20"
+                className="absolute -bottom-6 -left-6 glass rounded-2xl border border-border/70 p-4 shadow-card"
               >
-                <p className="text-sm font-semibold text-white">NovaBook Pro 16</p>
-                <p className="text-xs text-slate-300">From PKR 269,999</p>
+                <p className="text-sm font-semibold text-slate-900 dark:text-slate-100">
+                  NovaBook Pro 16
+                </p>
+                <p className="text-xs text-slate-700 dark:text-slate-300">From PKR 269,999</p>
               </motion.div>
             </div>
           </motion.div>
