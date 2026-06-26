@@ -45,28 +45,32 @@ export const teamMembers: TeamMember[] = [
     name: 'Ali Khan',
     role: 'CEO & Co-Founder',
     bio: 'Former product engineer with a passion for making premium technology more accessible in Pakistan.',
-    image: 'https://i.pravatar.cc/300?img=45',
+    image:
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&fit=crop&crop=face',
   },
   {
     id: 'tm2',
     name: 'Ayesha Ahmed',
     role: 'CTO',
     bio: 'Leads our hardware and software integration strategy with a strong focus on reliability and local service.',
-    image: 'https://i.pravatar.cc/300?img=11',
+    image:
+      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80&fit=crop&crop=face',
   },
   {
     id: 'tm3',
     name: 'Muhammad Hamza',
     role: 'Head of Design',
     bio: 'Award-winning designer shaping NovaTech products with a strong eye for usability and local needs.',
-    image: 'https://i.pravatar.cc/300?img=23',
+    image:
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80&fit=crop&crop=face',
   },
   {
     id: 'tm4',
     name: 'Hira Malik',
     role: 'VP of Customer Experience',
     bio: 'Dedicated to building service experiences that feel fast, personal, and dependable for every customer.',
-    image: 'https://i.pravatar.cc/300?img=53',
+    image:
+      'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80&fit=crop&crop=face',
   },
 ]
 

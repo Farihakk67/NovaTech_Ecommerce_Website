@@ -107,7 +107,7 @@ export function HeroSection() {
             <div className="relative aspect-square max-w-lg mx-auto">
               <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-secondary/30 to-accent/30 blur-2xl" />
               <img
-                src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&q=80"
+                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
                 alt="NovaTech premium electronics showcase"
                 className="relative rounded-3xl shadow-2xl object-cover w-full h-full"
               />

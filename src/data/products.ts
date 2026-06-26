@@ -52,8 +52,8 @@ export const products: Product[] = [
       Weight: '2.1 kg',
     },
     images: [
+      'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80',
       'https://images.unsplash.com/photo-1496181133206-8122ed4d25b6?w=800&q=80',
-      'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80',
       'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80',
     ],
     tags: ['premium', 'creator', 'portable'],
@@ -81,7 +81,7 @@ export const products: Product[] = [
       Weight: '1.2 kg',
     },
     images: [
-      'https://images.unsplash.com/photo-1541807084-5c52b6b3c4ad?w=800&q=80',
+      'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80',
       'https://images.unsplash.com/photo-1525547719571-a2d4ac894b8f?w=800&q=80',
     ],
     tags: ['ultrabook', 'lightweight', 'student'],
@@ -164,7 +164,7 @@ export const products: Product[] = [
       OS: 'NovaOS 5',
     },
     images: [
-      'https://images.unsplash.com/photo-1565849904461-04a021577196?w=800&q=80',
+      'https://images.unsplash.com/photo-1598327637678-72d17d2b6d17?w=800&q=80',
       'https://images.unsplash.com/photo-1601784551445-20c9e07cdbdb?w=800&q=80',
     ],
     tags: ['budget', 'compact', '5g'],
@@ -320,7 +320,7 @@ export const products: Product[] = [
       Compatibility: 'PC, Console, Mobile',
       Weight: '280g',
     },
-    images: ['https://images.unsplash.com/photo-1606144042614-b2417e99c4e9?w=800&q=80'],
+    images: ['https://images.unsplash.com/photo-1600080972464-8e5f35f7d0cd?w=800&q=80'],
     tags: ['controller', 'wireless', 'esports'],
     featured: false,
     discount: 0,
