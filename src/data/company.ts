@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 't2',
-    name: 'Ayesha Malik',
+    name: 'Hamza Siddiqui',
     role: 'Small Business Owner, Lahore',
     content:
       'I upgraded my shop systems with NovaTech monitors and a workstation package. Everything feels premium, efficient, and worth every rupee.',
@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 't3',
-    name: 'Hamza Siddiqui',
+    name: 'Ayesha Malik',
     role: 'Content Creator, Islamabad',
     content:
       'As a creator, I need gear that works under pressure. NovaCam and NovaSound have been flawless, and the delivery experience was smooth from start to finish.',

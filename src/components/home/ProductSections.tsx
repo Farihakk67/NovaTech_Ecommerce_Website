@@ -87,7 +87,7 @@ export function TestimonialsSection() {
       avatar: 'https://i.pravatar.cc/80?img=47',
     },
     {
-      name: 'Ayesha Malik',
+      name: 'Hamza Siddiqui',
       role: 'Business Owner, Lahore',
       content:
         'The NovaBook Pro 16 changed how I work. Battery life is incredible, the display is gorgeous, and it handles everything I throw at it.',
@@ -95,7 +95,7 @@ export function TestimonialsSection() {
       avatar: 'https://i.pravatar.cc/80?img=12',
     },
     {
-      name: 'Hamza Siddiqui',
+      name: 'Ayesha Malik',
       role: 'Content Creator, Islamabad',
       content:
         'As a creator, I need reliable gear. NovaCam and NovaSound have exceeded every expectation. Remarkable attention to detail.',
