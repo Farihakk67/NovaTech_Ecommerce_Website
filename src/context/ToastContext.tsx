@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useCallback, useState, type ReactNode } from 'react'
 import type { Toast } from '@/types'
 import { generateId } from '@/utils'

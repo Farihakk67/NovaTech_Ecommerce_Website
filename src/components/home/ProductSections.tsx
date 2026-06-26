@@ -79,24 +79,24 @@ export function TrendingProducts({ products }: { products: Product[] }) {
 export function TestimonialsSection() {
   const testimonials = [
     {
-      name: 'Sarah Mitchell',
-      role: 'Product Designer',
+      name: 'Ali Raza',
+      role: 'Architect, Karachi',
       content:
-        'NovaTech has become my go-to for all things tech. The quality is unmatched, and their customer service feels genuinely personal.',
+        'NovaTech has become my go-to for all things tech. The quality is unmatched, and their delivery support feels genuinely personal and reliable.',
       rating: 5,
       avatar: 'https://i.pravatar.cc/80?img=47',
     },
     {
-      name: 'David Okonkwo',
-      role: 'Software Engineer',
+      name: 'Ayesha Malik',
+      role: 'Business Owner, Lahore',
       content:
         'The NovaBook Pro 16 changed how I work. Battery life is incredible, the display is gorgeous, and it handles everything I throw at it.',
       rating: 5,
       avatar: 'https://i.pravatar.cc/80?img=12',
     },
     {
-      name: 'Emily Rodriguez',
-      role: 'Content Creator',
+      name: 'Hamza Siddiqui',
+      role: 'Content Creator, Islamabad',
       content:
         'As a creator, I need reliable gear. NovaCam and NovaSound have exceeded every expectation. Remarkable attention to detail.',
       rating: 5,

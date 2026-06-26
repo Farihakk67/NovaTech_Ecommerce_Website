@@ -1,10 +1,10 @@
 export function formatCurrency(amount: number): string {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
+  const formatted = new Intl.NumberFormat('en-PK', {
     minimumFractionDigits: 0,
-    maximumFractionDigits: 2,
+    maximumFractionDigits: 0,
   }).format(amount)
+
+  return `PKR ${formatted}`
 }
 
 export function calculateDiscountedPrice(price: number, discount: number): number {

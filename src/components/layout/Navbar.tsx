@@ -33,9 +33,13 @@ export function Navbar() {
   const searchResults = debouncedSearch ? searchProducts(products, debouncedSearch) : []
 
   useEffect(() => {
-    setIsMenuOpen(false)
-    setShowSearch(false)
-    setSearchQuery('')
+    const timer = window.setTimeout(() => {
+      setIsMenuOpen(false)
+      setShowSearch(false)
+      setSearchQuery('')
+    }, 0)
+
+    return () => window.clearTimeout(timer)
   }, [location.pathname])
 
   useEffect(() => {

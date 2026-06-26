@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useCallback, useMemo, type ReactNode } from 'react'
 import type { Product, CartItem } from '@/types'
 import { useLocalStorage } from '@/hooks/useLocalStorage'

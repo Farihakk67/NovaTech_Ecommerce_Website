@@ -9,7 +9,7 @@ export function AboutPage() {
     <>
       <SEO
         title="About Us"
-        description="Learn about NovaTech's mission to create premium consumer electronics that inspire innovation."
+        description="Learn about NovaTech's mission to bring premium consumer electronics to Pakistan with local support and dependable quality."
       />
 
       {/* Hero */}
@@ -23,9 +23,9 @@ export function AboutPage() {
               Building Technology That Inspires the Next Generation
             </h1>
             <p className="mt-6 text-lg text-slate-300 max-w-2xl mx-auto">
-              Founded in 2018, NovaTech set out to prove that premium technology doesn&apos;t have
-              to come with a premium attitude. We design products for creators, innovators, and
-              everyday heroes.
+              Founded in Lahore in 2018, NovaTech set out to prove that premium technology
+              doesn&apos;t have to come with a premium attitude. We design products for creators,
+              innovators, students, and everyday families across Pakistan.
             </p>
           </ScrollReveal>
         </div>
@@ -116,7 +116,7 @@ export function AboutPage() {
             <SectionHeading
               eyebrow="Timeline"
               title="Our Journey"
-              description="From a garage startup to a global brand — the NovaTech story."
+              description="From a Lahore start-up to a growing national brand — the NovaTech story."
             />
           </ScrollReveal>
           <div className="relative max-w-3xl mx-auto">
@@ -149,7 +149,7 @@ export function AboutPage() {
             <SectionHeading
               eyebrow="Our Team"
               title="Meet the People Behind NovaTech"
-              description="A diverse team of engineers, designers, and dreamers united by a shared passion for great technology."
+              description="A diverse team of engineers, designers, and dreamers united by a shared passion for great technology in Pakistan."
             />
           </ScrollReveal>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">

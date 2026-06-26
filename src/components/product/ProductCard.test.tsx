@@ -10,7 +10,7 @@ describe('ProductCard', () => {
 
     expect(screen.getByText('NovaTest Pro')).toBeInTheDocument()
     expect(screen.getByText('Laptops')).toBeInTheDocument()
-    expect(screen.getByText('$899.1')).toBeInTheDocument()
+    expect(screen.getByText('PKR 999')).toBeInTheDocument()
   })
 
   it('shows discount badge when product has a discount', () => {

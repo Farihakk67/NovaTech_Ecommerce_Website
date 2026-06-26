@@ -83,7 +83,8 @@ export function WhyChooseUs() {
     {
       icon: '🚀',
       title: 'Express Delivery',
-      description: 'Free next-day shipping on orders over $99. Track every step in real time.',
+      description:
+        'Free nationwide delivery on orders over PKR 20,000. Track every step in real time.',
     },
     {
       icon: '↩️',

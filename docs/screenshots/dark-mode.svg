@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="NovaTech dark mode preview illustration">
+  <rect width="1280" height="720" fill="#020617" />
+  <rect x="80" y="80" width="1120" height="560" rx="28" fill="#0f172a" stroke="#1e293b" />
+  <rect x="120" y="120" width="220" height="48" rx="14" fill="#1e293b" />
+  <rect x="370" y="120" width="120" height="24" rx="12" fill="#334155" />
+  <rect x="520" y="120" width="120" height="24" rx="12" fill="#334155" />
+  <rect x="980" y="120" width="80" height="36" rx="18" fill="#38bdf8" />
+  <rect x="120" y="220" width="460" height="250" rx="24" fill="#111827" />
+  <rect x="620" y="220" width="240" height="140" rx="20" fill="#111827" />
+  <rect x="900" y="220" width="160" height="140" rx="20" fill="#111827" />
+  <rect x="620" y="390" width="440" height="120" rx="20" fill="#111827" />
+  <text x="120" y="612" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">Dark mode experience</text>
+</svg>

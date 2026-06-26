@@ -94,7 +94,7 @@ export function ContactPage() {
                     value={form.name}
                     onChange={(e) => updateField('name', e.target.value)}
                     error={errors.name}
-                    placeholder="John Doe"
+                    placeholder="Ali Khan"
                     required
                   />
                   <Input
@@ -103,7 +103,7 @@ export function ContactPage() {
                     value={form.email}
                     onChange={(e) => updateField('email', e.target.value)}
                     error={errors.email}
-                    placeholder="john@example.com"
+                    placeholder="ali@example.com"
                     required
                   />
                   <Input
@@ -179,7 +179,7 @@ export function ContactPage() {
                 <div className="rounded-2xl border border-border overflow-hidden h-64 bg-border/30 relative">
                   <iframe
                     title="NovaTech office location"
-                    src="https://maps.google.com/maps?q=2847+Innovation+Drive+San+Francisco+CA&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=Gulberg+III+Lahore+Pakistan&t=&z=14&ie=UTF8&iwloc=&output=embed"
                     className="w-full h-full border-0"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"

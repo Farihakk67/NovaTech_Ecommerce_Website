@@ -3,37 +3,37 @@ import type { Testimonial, TeamMember, TimelineEvent } from '@/types'
 export const testimonials: Testimonial[] = [
   {
     id: 't1',
-    name: 'Sarah Mitchell',
-    role: 'Product Designer, Stripe',
+    name: 'Ali Raza',
+    role: 'Architect, Karachi',
     content:
-      'NovaTech has become my go-to for all things tech. The quality is unmatched, and their customer service feels genuinely personal. I upgraded my entire home office with NovaTech gear.',
+      'NovaTech helped me build a reliable home studio setup in record time. The laptop and audio gear arrived quickly, and the after-sales support felt genuinely local and helpful.',
     rating: 5,
     avatar: 'https://i.pravatar.cc/80?img=47',
   },
   {
     id: 't2',
-    name: 'David Okonkwo',
-    role: 'Software Engineer, Google',
+    name: 'Ayesha Malik',
+    role: 'Small Business Owner, Lahore',
     content:
-      'The NovaBook Pro 16 changed how I work. Battery life is incredible, the display is gorgeous, and it handles everything I throw at it — from IDE to 4K video editing.',
+      'I upgraded my shop systems with NovaTech monitors and a workstation package. Everything feels premium, efficient, and worth every rupee.',
     rating: 5,
     avatar: 'https://i.pravatar.cc/80?img=12',
   },
   {
     id: 't3',
-    name: 'Emily Rodriguez',
-    role: 'Content Creator',
+    name: 'Hamza Siddiqui',
+    role: 'Content Creator, Islamabad',
     content:
-      'As a creator, I need reliable gear. NovaCam and NovaSound have exceeded every expectation. The attention to detail in both hardware and the shopping experience is remarkable.',
+      'As a creator, I need gear that works under pressure. NovaCam and NovaSound have been flawless, and the delivery experience was smooth from start to finish.',
     rating: 5,
     avatar: 'https://i.pravatar.cc/80?img=32',
   },
   {
     id: 't4',
-    name: 'James Park',
-    role: 'Esports Athlete',
+    name: 'Fatima Noor',
+    role: 'Gaming Enthusiast, Rawalpindi',
     content:
-      'NovaStrike gaming gear gives me the competitive edge I need. Zero latency, perfect ergonomics, and build quality that survives tournament travel.',
+      'The NovaStrike setup gave me the edge I wanted for competitive play. Great performance, durable build, and excellent support.',
     rating: 4,
     avatar: 'https://i.pravatar.cc/80?img=15',
   },
@@ -42,30 +42,30 @@ export const testimonials: Testimonial[] = [
 export const teamMembers: TeamMember[] = [
   {
     id: 'tm1',
-    name: 'Elena Vasquez',
+    name: 'Ali Khan',
     role: 'CEO & Co-Founder',
-    bio: 'Former Tesla engineer with a vision to democratize premium technology.',
+    bio: 'Former product engineer with a passion for making premium technology more accessible in Pakistan.',
     image: 'https://i.pravatar.cc/300?img=45',
   },
   {
     id: 'tm2',
-    name: 'Marcus Chen',
+    name: 'Ayesha Ahmed',
     role: 'CTO',
-    bio: 'Led chip design at Intel before co-founding NovaTech to build better silicon.',
+    bio: 'Leads our hardware and software integration strategy with a strong focus on reliability and local service.',
     image: 'https://i.pravatar.cc/300?img=11',
   },
   {
     id: 'tm3',
-    name: 'Aisha Patel',
+    name: 'Muhammad Hamza',
     role: 'Head of Design',
-    bio: "Award-winning industrial designer shaping NovaTech's iconic aesthetic.",
+    bio: 'Award-winning designer shaping NovaTech products with a strong eye for usability and local needs.',
     image: 'https://i.pravatar.cc/300?img=23',
   },
   {
     id: 'tm4',
-    name: "Ryan O'Brien",
-    role: 'VP of Engineering',
-    bio: '20 years in consumer electronics, obsessed with quality and sustainability.',
+    name: 'Hira Malik',
+    role: 'VP of Customer Experience',
+    bio: 'Dedicated to building service experiences that feel fast, personal, and dependable for every customer.',
     image: 'https://i.pravatar.cc/300?img=53',
   },
 ]
@@ -75,45 +75,49 @@ export const timeline: TimelineEvent[] = [
     year: '2018',
     title: 'NovaTech Founded',
     description:
-      'Elena Vasquez and Marcus Chen launch NovaTech in a San Francisco garage with a mission to build technology that inspires.',
+      'Ali Khan and Ayesha Ahmed launch NovaTech in Lahore with a mission to bring premium electronics closer to Pakistani homes and businesses.',
   },
   {
     year: '2019',
     title: 'First Product Launch',
     description:
-      'NovaBook Air debuts to critical acclaim, winning "Best Laptop" at CES Innovation Awards.',
+      'NovaBook Air makes its debut with strong demand from students, creators, and professionals across the country.',
   },
   {
     year: '2020',
-    title: 'Global Expansion',
+    title: 'Nationwide Expansion',
     description:
-      'Opened offices in London, Tokyo, and Singapore. Reached 500,000 customers worldwide.',
+      'Opened service hubs in Karachi, Islamabad, and Faisalabad, reaching more than 25,000 customers in the first year.',
   },
   {
     year: '2021',
-    title: 'NovaCore Chip Unveiled',
+    title: 'Local Support Network',
     description:
-      'Revolutionary custom silicon delivers desktop performance in mobile form factors.',
+      'Built a nationwide after-sales support team to make setup, warranty, and upgrades easier for customers.',
   },
   {
     year: '2022',
-    title: '1 Million Customers',
-    description: 'Crossed the million-customer milestone with 99% satisfaction rating.',
+    title: '85K+ Customers',
+    description:
+      'Crossed the 85,000-customer milestone with one of the highest satisfaction ratings in the segment.',
   },
   {
     year: '2023',
     title: 'Sustainability Pledge',
-    description: 'Committed to carbon-neutral operations and 100% recyclable packaging by 2025.',
+    description:
+      'Committed to responsible packaging and longer-lasting devices that reduce electronic waste.',
   },
   {
     year: '2024',
     title: 'NovaPhone Fold',
-    description: "Entered the smartphone market with the industry's most refined foldable device.",
+    description:
+      'Entered the foldable smartphone category with a design tailored to modern Pakistani lifestyles.',
   },
   {
     year: '2025',
-    title: '2M+ Community',
-    description: 'NovaTech community surpasses 2 million members across 150 countries.',
+    title: 'Growing Community',
+    description:
+      'NovaTech now serves a growing community of creators, gamers, and professionals across 24 cities.',
   },
 ]
 
@@ -121,7 +125,8 @@ export const companyValues = [
   {
     icon: 'HiOutlineLightBulb',
     title: 'Innovation First',
-    description: 'We push boundaries and challenge conventions to create technology that matters.',
+    description:
+      'We push boundaries and create technology that meets the needs of modern Pakistani households.',
   },
   {
     icon: 'HiOutlineHeart',
@@ -131,12 +136,13 @@ export const companyValues = [
   {
     icon: 'HiOutlineGlobeAlt',
     title: 'Sustainability',
-    description: 'Building a better future through responsible manufacturing and circular design.',
+    description:
+      'Building a better future through responsible packaging and durable, repair-friendly devices.',
   },
   {
     icon: 'HiOutlineUserGroup',
     title: 'Inclusive Design',
     description:
-      'Technology should be accessible to everyone, regardless of ability or background.',
+      'Technology should be accessible to everyone, regardless of ability, budget, or background.',
   },
 ]

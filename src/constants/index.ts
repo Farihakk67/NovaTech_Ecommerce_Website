@@ -1,7 +1,7 @@
 import type { ProductCategory, SortOption } from '@/types'
 
 export const APP_NAME = 'NovaTech'
-export const APP_TAGLINE = 'Engineered for Tomorrow'
+export const APP_TAGLINE = 'Built for Pakistan'
 
 export const STORAGE_KEYS = {
   CART: 'novatech_cart',
@@ -34,8 +34,8 @@ export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
 
 export const PRICE_RANGE = {
   min: 0,
-  max: 3000,
-  step: 50,
+  max: 800000,
+  step: 50000,
 } as const
 
 export const PAGINATION = {
@@ -82,9 +82,9 @@ export const BRAND_LOGOS = [
 ] as const
 
 export const COMPANY_STATS = [
-  { value: '2M+', label: 'Happy Customers' },
-  { value: '150+', label: 'Countries Served' },
-  { value: '99.2%', label: 'Satisfaction Rate' },
+  { value: '85K+', label: 'Happy Customers' },
+  { value: '24+', label: 'Cities Served' },
+  { value: '98.7%', label: 'Satisfaction Rate' },
   { value: '24/7', label: 'Expert Support' },
 ] as const
 
@@ -96,8 +96,8 @@ export const WHY_CHOOSE_US = [
   },
   {
     icon: 'HiOutlineTruck',
-    title: 'Express Delivery',
-    description: 'Free next-day shipping on orders over $99. Track every step in real time.',
+    title: 'Fast Delivery',
+    description: 'Free same-day dispatch in Lahore, Karachi, and Islamabad with live tracking.',
   },
   {
     icon: 'HiOutlineRefresh',
@@ -106,14 +106,14 @@ export const WHY_CHOOSE_US = [
   },
   {
     icon: 'HiOutlineSupport',
-    title: 'Expert Support',
+    title: 'Local Support',
     description: 'Our tech specialists are available 24/7 to help you choose and configure.',
   },
 ] as const
 
 export const CONTACT_INFO = {
-  address: '2847 Innovation Drive, San Francisco, CA 94107',
-  phone: '+1 (800) 668-2832',
-  email: 'hello@novatech.com',
-  hours: 'Mon–Fri: 9AM–8PM PST',
+  address: 'Suite 12, Gulberg III, Lahore 54000, Pakistan',
+  phone: '+92 300 1234567',
+  email: 'hello@novatech.pk',
+  hours: 'Mon–Sat: 10AM–8PM PKT',
 } as const

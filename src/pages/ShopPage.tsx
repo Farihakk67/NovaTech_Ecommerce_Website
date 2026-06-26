@@ -26,9 +26,10 @@ export function ShopPage() {
   const maxPrice = Number(searchParams.get('maxPrice') ?? PRICE_RANGE.max)
   const minRating = Number(searchParams.get('minRating') ?? '0')
 
-  const categories: ProductCategory[] = categoryParam
-    ? [categoryParam as ProductCategory]
-    : (searchParams.getAll('categories') as ProductCategory[])
+  const categories = useMemo<ProductCategory[]>(() => {
+    if (categoryParam) return [categoryParam as ProductCategory]
+    return searchParams.getAll('categories') as ProductCategory[]
+  }, [categoryParam, searchParams])
 
   const filters = useMemo(
     () => ({
@@ -164,7 +165,8 @@ export function ShopPage() {
 
                 <div>
                   <p className="text-sm font-semibold text-text mb-3">
-                    Price: ${minPrice} – ${maxPrice}
+                    Price: PKR {minPrice.toLocaleString('en-PK')} – PKR{' '}
+                    {maxPrice.toLocaleString('en-PK')}
                   </p>
                   <input
                     type="range"

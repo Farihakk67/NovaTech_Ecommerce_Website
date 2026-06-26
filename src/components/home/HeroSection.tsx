@@ -29,7 +29,7 @@ export function HeroSection() {
             >
               <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white/90 mb-6">
                 <HiSparkles className="h-4 w-4 text-accent" />
-                New NovaPhone Fold — Now Available
+                NovaPhone Fold — Now Available in Pakistan
               </span>
             </motion.div>
 
@@ -40,10 +40,10 @@ export function HeroSection() {
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight text-balance"
             >
               Technology{' '}
-              <span className="gradient-text bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
-                Reimagined
+              <span className="gradient-text bg-linear-to-r from-secondary to-accent bg-clip-text text-transparent">
+                Tailored
               </span>{' '}
-              for Tomorrow
+              for Pakistan
             </motion.h1>
 
             <motion.p
@@ -52,8 +52,8 @@ export function HeroSection() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="mt-6 text-lg text-slate-300 max-w-lg text-balance"
             >
-              Discover premium consumer electronics crafted with precision, designed for innovators,
-              and built to inspire your next breakthrough.
+              Discover premium consumer electronics crafted with precision, designed for Pakistani
+              homes, studios, and businesses, and built to power the next breakthrough.
             </motion.p>
 
             <motion.div
@@ -105,7 +105,7 @@ export function HeroSection() {
             className="relative hidden lg:block"
           >
             <div className="relative aspect-square max-w-lg mx-auto">
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-secondary/30 to-accent/30 blur-2xl" />
+              <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-secondary/30 to-accent/30 blur-2xl" />
               <img
                 src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&q=80"
                 alt="NovaTech premium electronics showcase"
@@ -117,7 +117,7 @@ export function HeroSection() {
                 className="absolute -bottom-6 -left-6 glass rounded-2xl p-4 shadow-card border border-white/20"
               >
                 <p className="text-sm font-semibold text-white">NovaBook Pro 16</p>
-                <p className="text-xs text-slate-300">From $1,709</p>
+                <p className="text-xs text-slate-300">From PKR 269,999</p>
               </motion.div>
             </div>
           </motion.div>
@@ -171,8 +171,8 @@ export function CTASection() {
                 Ready to Upgrade Your Tech?
               </h2>
               <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
-                Join over 2 million customers who trust NovaTech for premium electronics. Free
-                shipping on orders over $99.
+                Join thousands of customers across Pakistan who trust NovaTech for premium
+                electronics. Free delivery on orders over PKR 20,000.
               </p>
               <Link to="/shop" className="inline-block mt-8">
                 <Button

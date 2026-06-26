@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="NovaTech preview illustration">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" rx="28" />
+  <rect x="80" y="90" width="1120" height="540" rx="28" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.28)" />
+  <circle cx="240" cy="220" r="120" fill="#7dd3fc" opacity="0.28" />
+  <circle cx="1040" cy="500" r="160" fill="#22c55e" opacity="0.22" />
+  <rect x="180" y="200" width="320" height="240" rx="24" fill="#ffffff" opacity="0.95" />
+  <rect x="220" y="240" width="240" height="140" rx="14" fill="#e2e8f0" />
+  <rect x="620" y="180" width="360" height="120" rx="22" fill="#ffffff" opacity="0.92" />
+  <rect x="620" y="336" width="360" height="120" rx="22" fill="#ffffff" opacity="0.88" />
+  <rect x="620" y="492" width="240" height="80" rx="20" fill="#f8fafc" opacity="0.9" />
+  <text x="180" y="590" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NovaTech — Premium Electronics for Pakistan</text>
+</svg>
