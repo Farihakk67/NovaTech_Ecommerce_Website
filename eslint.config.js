@@ -40,6 +40,9 @@ export default tseslint.config(
         console: 'readonly',
       },
     },
+    rules: {
+      'no-undef': 'off',
+    },
   },
   {
     files: ['**/*.test.{ts,tsx}', 'src/test/**/*.{ts,tsx}'],
